@@ -349,11 +349,11 @@ nav .menu-btn{
     }
     footer{
         justify-content: space-between;
-        padding:0px 10px;
+        padding:0px 06px;
         text-align: center;
     }
 }
-@media(max-width:410px){
+@media(max-width:380px){
     .movies-box a,.movies-box{
         width: 100%;
     }
