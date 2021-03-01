@@ -1,0 +1,36 @@
+.button-container{
+    position:absolute;
+    right:90%;
+    text-align:center;}
+    .button{
+        border:5px solid #23303d;
+        border-radius:50%;
+        width:40PX;
+        height:25px;
+        padding:10px 5px;
+        margin:20px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        }
+        .button img{
+            height:30px;
+            margin-left:8px;
+            margin-top:3px;}
+            .container{
+                margin:0px 90px;
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                height:80vh;
+                position:relative;}
+                .text-container{
+                    position:absolute;}
+                    .play-text{
+                        color:#bbb9b9;
+                        font-family:myriad pro;
+                        font-size:22px;}
+.button:hover{
+background-color:rgba(12,14,26,1.00);
+transition:all ease 0.5s;
+box-shadow:2px 2px 12px rgba(255,255,255,0.20);}
